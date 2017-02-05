@@ -14,7 +14,8 @@ self.toolbox.options.cache = {
 // pre-cache our key assets
 self.toolbox.precache(
   [
-    'src/img/*',
+    'src/img/mediumCards/',
+    'src/img/smallCards/*',
     'index.html',
     'manifest.json'
   ]
