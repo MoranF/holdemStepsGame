@@ -28,6 +28,13 @@
       ga('send', 'pageview');
 
     </script>
+      <script>
+        if ('serviceWorker' in navigator) {
+          navigator.serviceWorker.register('service-worker.js')
+            .then(() => console.log('service worker installed'))
+            .catch(err => console.log('Error', err));
+        }
+      </script>
   </head>
   <body ng-app="holdemSteps"> 
     <div ui-view></div>

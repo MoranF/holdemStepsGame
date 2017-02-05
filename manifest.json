@@ -1,0 +1,13 @@
+{
+  "name": "Holdem Steps",
+  "short_name": "Holdem",
+  "start_url": "index.html",
+  "display": "standalone",
+  "icons": [{
+    "src": "src/img/calculator.jpg",
+    "sizes": "512x512",
+    "type": "image/jpg"
+  }],
+  "background_color": "#4e8ef7",
+  "theme_color": "#4e8ef7"
+}
