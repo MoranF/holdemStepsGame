@@ -1,0 +1,18 @@
+<div id="content">
+  <div class="top-wrapper">
+      <player player="game.players[0]"></player>
+      <player player="game.players[1]"></player>
+      <div class="best-score">
+        Best streak: {{longestStreak || 0}}
+      </div>
+      <div class="current-score">
+        {{currentStreak}}
+      </div>
+    </div>
+    <div ng-show="wrongAnswer" class="answer"><div class="wrong">Wrong Answer</div></div>
+    <div ng-show="rightAnswer" class="answer"><div class="right">Correct!</div></div>
+    <div>
+      <streets cards="game.streets"></streets>
+    </div>
+    <scores scores="game.scores" answer="game.player1Wins" wrongAnswerMethod="wrongAnswerState" newRoundMethod="startNewRound"></scores>
+</div>

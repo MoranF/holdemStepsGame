@@ -1,0 +1,212 @@
+html, body {
+    margin: 0;
+    height: 100%;
+}
+
+:focus {
+	outline: 0;
+}
+
+#content, #startPage {
+	background: green url("/src/img/background.jpg");
+	background-size: cover;
+	padding: 15px;
+	height: calc(100% - 30px);
+}
+
+/*easy game*/
+
+.top-wrapper {
+	position: relative;
+}
+
+.top-wrapper .current-score {
+	color: #67FE76;
+	font-size: 70px;
+	font-weight: bold;
+	position: absolute;
+	bottom: -120px;
+	width: 20%;
+	text-align: center;
+}
+
+.top-wrapper .best-score {
+	color: white;
+	opacity: 0.5;
+	position: absolute;
+	font-size: 40px;
+	bottom: 10px;
+	width: calc(100% - 30px);
+	text-align: center;
+}
+
+.player1 {
+	display: inline-block;
+	width: 20%;
+	position: relative;
+}
+
+.player2 {
+	float: right;
+	display: inline-block;
+	width: 20%;
+	position: relative;
+}
+
+.player3 {
+	float: right;
+	display: inline-block;
+	width: 20%;
+	position: relative;
+}
+
+.player1 .card, .player2 .card, .player3 .card {
+	width: 50%;
+}
+
+.player-id {
+	color: white;
+	font-size: 25px;
+	line-height: 35px;
+	font-weight: bold;
+	position: absolute;
+	bottom: -35px;
+	width: 100%;
+    text-align: center;
+}
+
+.card {
+	width: 7%;
+}
+
+.streets-wrapper {
+	text-align: center;
+}
+
+.street {
+	border: 2px solid rgba(255, 255, 255, .5);
+	border-radius: 15%;
+	margin: 0 5px;
+	padding: 5px;
+	display: inline-block;
+	width: 10%;
+}
+
+.street img {
+	width: 100%;
+}
+
+.hidden-card {
+	visibility: hidden;
+}
+
+.question {
+	color: white;
+	opacity: 0.5;
+	font-size: 28px;
+	text-align: center;
+	margin: 30px 0 20px 0;
+}
+
+.score {
+	border: 3px solid white;
+	border-radius: 100%;
+	color: white;
+	background-color: transparent;
+	font-size: 28px;
+	margin: 0 30px;
+	line-height: 85px;
+	text-align: center;
+	width: 90px;
+	height: 90px;
+}
+
+.wrong-score {
+	border: 3px solid #FF5A66;
+	border-radius: 100%;
+	color: white;
+	background-color: transparent;
+	font-size: 28px;
+	margin: 0 30px;
+	line-height: 85px;
+	text-align: center;
+	width: 90px;
+	height: 90px;
+	background-color: rgba(55,55,55,0.70);
+	color:#FF5A66;
+}
+.right-score {
+	border: 3px solid #67FE76;
+	border-radius: 100%;
+	color: white;
+	background-color: transparent;
+	font-size: 28px;
+	margin: 0 30px;
+	line-height: 85px;
+	text-align: center;
+	width: 90px;
+	height: 90px;
+	background-color: rgba(55,55,55,0.70);
+	color:#67FE76;
+}
+
+.scores-wrapper {
+	text-align: center;
+}
+
+.answer {
+	position: absolute;
+	width: calc(100% - 30px); 
+	text-align: center;
+	top: 0;
+}
+
+.answer .wrong {
+	color: #ff5a66;
+}
+
+.answer .right {
+	color: #67fe76;
+}
+
+.answer .right, .answer .wrong {
+	display: inline-block;
+	padding: 10px 20px;
+	background-color: rgba(0, 0, 0, 0.5);
+	border-radius:0px 0px 17px 17px;
+	font-size: 50px;
+	font-weight: bold;
+}
+
+/*easy game*/
+
+
+/*start page*/
+
+#startPage {
+	text-align: center;
+}
+
+.start-button {
+	text-decoration: none;
+	color: white;
+	border: 5px solid white;
+	border-radius: 22px;
+	padding: 10px 50px;
+	font-size: 58px;
+	font-weight: bold;
+	margin-top: 50px;
+}
+
+.title {
+	color: white;
+	font-size: 80px;
+	font-weight: bold;
+}
+
+.medium-game .player1, .medium-game .player2, .medium-game .player3 {
+	width: 16%;
+}
+
+
+/*start page*/

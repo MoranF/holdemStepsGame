@@ -1,0 +1,6 @@
+<div class="scores-wrapper">
+    <div class="question">What is your probability of winning the hand? (approximately)</div>
+	<button ng-repeat="scoreResult in scores" ng-class="scoreResult.cssClass" ng-click="checkScore(scoreResult)">
+  		{{scoreResult.score}}%
+	</button>        
+</div>
