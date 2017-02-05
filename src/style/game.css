@@ -8,7 +8,7 @@ html, body {
 }
 
 #content, #startPage {
-	background: green url("/src/img/background.jpg");
+	background: green url("/holdemStepsGame/src/img/background.jpg");
 	background-size: cover;
 	padding: 15px;
 	height: calc(100% - 30px);
